@@ -1,0 +1,13 @@
+
+    <!-- SVG com curva invertida e gradiente -->
+    <svg width="100%" height="300px" viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <!-- Definindo o gradiente linear -->
+            <linearGradient id="gradiente-onda" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop stop-color="rgba(83, 0, 130, 1)" offset="100%" />
+            <stop stop-color="rgba(138, 5, 190, 1)" offset="0%" />
+            </linearGradient>
+        </defs>
+        <!-- Aplicando o gradiente e a curva invertida -->
+        <path fill="url(#gradiente-onda)" d="M0,128L60,138.7C120,149,240,171,360,181.3C480,192,600,192,720,186.7C840,181,960,171,1080,154.7C1200,139,1320,117,1380,106.7L1440,96L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
+    </svg>
