@@ -4,6 +4,10 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+
+    background-image: url(/src/images/wave-2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -32,6 +36,7 @@
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
     position: relative;
     overflow: hidden;
+    
 }
 
 .dish-heart {

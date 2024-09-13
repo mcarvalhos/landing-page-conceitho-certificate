@@ -7,8 +7,8 @@
 @import url(./footer.css);
 
 :root {
-    --color-primary-0: #BA4DE3;
-    --color-primary-1: #8A05BE;
+    --color-primary-0: #ba4de3;
+    --color-primary-1: #8a05be;
     --color-primary-2: #530082;
     --color-primary-3: #530082;
     --color-primary-4: #f8d477;
@@ -62,9 +62,12 @@ section {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
+.btn-default a {
+    text-decoration: none;
+    color: inherit;
+}
 .btn-default:hover {
-    background-color: var(--color-primary-7);
+    background-color: var(--color-primary-6);
 }
 
 .social-media-buttons {

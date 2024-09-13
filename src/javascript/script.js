@@ -15,8 +15,14 @@ $(document).ready(function () {
 
         if (scrollPosition <= 0) {
             header.css("box-shadow", "none");
+            header.css("background", "#a42024");
+
         } else {
             header.css("box-shadow", "5px 1px 5px rgba(0, 0, 0, 0.1)");
+            header.css(" -webkit-backdrop-filter", "blur( 20px )");
+            header.css("backdrop-filter", "blur( 20px )");
+            header.css("background", "rgba( 164, 32, 36, 0.9 )");
+            header.css("border-radius", "10px;");
         }
 
         sections.each(function (i) {
@@ -31,28 +37,27 @@ $(document).ready(function () {
                 activeSectionIndex = i;
                 return false;
             }
-        })
+        });
 
-        navItems.removeClass('active');
+        navItems.removeClass("active");
         $(navItems[activeSectionIndex]).addClass("active");
     });
 
-    ScrollReveal().reveal('#cta, .dish, .feedback ', {
-        origin: 'left',
+    ScrollReveal().reveal("#cta, .dish, .feedback ", {
+        origin: "left",
         duration: 2000,
-        distance: '20%'
+        distance: "20%",
     });
 
-    ScrollReveal().reveal('#testimonials_certificate ', {
-        origin: 'left',
+    ScrollReveal().reveal("#testimonials_certificate ", {
+        origin: "left",
         duration: 1000,
-        distance: '20%'
+        distance: "20%",
     });
 
-    ScrollReveal().reveal('.feedback ', {
-        origin: 'right',
+    ScrollReveal().reveal(".feedback ", {
+        origin: "right",
         duration: 2000,
-        distance: '20%'
+        distance: "20%",
     });
-
 });
