@@ -2,6 +2,7 @@
 @import url(./header.css);
 @import url(./home.css);
 @import url(./services.css);
+@import url(./certificate.css);
 @import url(./testimonials.css);
 @import url(./footer.css);
 
@@ -9,13 +10,25 @@
     --color-primary-0: #BA4DE3;
     --color-primary-1: #8A05BE;
     --color-primary-2: #530082;
-    --color-primary-3: #f8d477;
-    --color-primary-4: #ffe100;
-    --color-primary-5: #ffcb45;
-    --color-primary-6: #e9a209;
+    --color-primary-3: #530082;
+    --color-primary-4: #f8d477;
+    --color-primary-5: #ffe100;
+    --color-primary-6: #ffcb45;
+    --color-primary-7: #e9a209;
 
     --color-neutral-0: #ffffff;
-    --color-neutral-1: #1d1d1d;
+    --color-neutral-1: #bfbfbf;
+    --color-neutral-2: #777777;
+    --color-neutral-3: #303030;
+    --color-neutral-4: #202020;
+    --color-neutral-5: #1d1d1d;
+    --color-neutral-6: #191919;
+    --color-neutral-7: #000000;
+
+    --global-color-1: #cc191f;
+    --global-color-2: #a42024;
+    --global-color-3: #652b2b;
+    --global-color-4: #5b1213;
 }
 * {
     font-family: "Poppins", sans-serif;
@@ -41,7 +54,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--color-primary-5);
+    background-color: var(--color-primary-7);
     border-radius: 12px;
     padding: 10px 14px;
     font-weight: 600;
@@ -51,7 +64,7 @@ section {
 }
 
 .btn-default:hover {
-    background-color: var(--color-primary-3);
+    background-color: var(--color-primary-7);
 }
 
 .social-media-buttons {
@@ -69,7 +82,7 @@ section {
     font-size: 1.25rem;
     border-radius: 10px;
     text-decoration: none;
-    color: var(--color-neutral-1);
+    color: var(--color-neutral-5);
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease;
 }
@@ -79,7 +92,7 @@ section {
 }
 
 .section-title {
-    color: var(--color-primary-6);
+    color: var(--color-primary-7);
     font-size: 1.563rem;
 }
 

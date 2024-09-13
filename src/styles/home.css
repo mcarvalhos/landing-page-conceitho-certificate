@@ -14,12 +14,11 @@
 
 #cta .title {
     font-size: 4rem;
-    color: var(--color-neutral-1);
-    text-transform:uppercase;
+    color: var(--color-neutral-5);
 }
 
 #cta .title span {
-    color: var(--color-primary-6);
+    color: var(--color-primary-7);
 }
 
 #cta .description {
@@ -33,7 +32,7 @@
 
 #cta_buttons a {
     text-decoration: none;
-    color: var(--color-neutral-1);
+    color: var(--color-neutral-5);
 }
 
 #phone_btn {
@@ -65,7 +64,7 @@
 }
 
 .shape {
-    background-color: var(--color-primary-1);
+    background-color: var(--global-color-1);
     width: 50%;
     height: 100%;
     position: absolute;
@@ -96,10 +95,10 @@
 
 @media screen and (max-width: 450px) {
     #phone_btn {
-        background-color: var(--color-primary-5);
+        background-color: var(--color-primary-7);
     }
     #phone_btn:hover {
-        background-color: var(--color-primary-3);
+        background-color: var(--color-primary-7);
     }
     #phone_btn p {
         display: none;

@@ -4,8 +4,9 @@
     xmlns="http://www.w3.org/2000/svg">
     <defs>
         <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
-            <stop stop-color="rgba(83, 0, 130, 1)" offset="0%" />
-            <stop stop-color="rgba(138, 5, 190, 1)" offset="100%" />
+            <stop stop-color="rgba(101, 43, 43, 1)" offset="0%" />
+            <stop stop-color="rgba(164, 32, 36, 1)" offset="50%" />
+            <stop stop-color="rgba(164, 32, 36, 1)" offset="100%" />
         </linearGradient>
     </defs>
     <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"

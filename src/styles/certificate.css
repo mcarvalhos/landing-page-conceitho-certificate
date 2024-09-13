@@ -1,4 +1,4 @@
-#services {
+#certificate {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,6 +64,17 @@
     gap: 20px;
 }
 
+@media screen and (max-width: 1920px) {
+    #dishes {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .dish {
+        width: calc(20% - 12px);
+    }
+}
+
 @media screen and (max-width: 1024px) {
     #dishes {
         flex-wrap: wrap;
@@ -80,7 +91,7 @@
         width: 100%;
     }
 
-    #services .section-subtitle {
+    #certificate .section-subtitle {
         text-align: center;
     }
 }

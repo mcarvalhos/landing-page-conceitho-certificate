@@ -4,8 +4,8 @@
         <defs>
             <!-- Definindo o gradiente linear -->
             <linearGradient id="gradiente-onda" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop stop-color="rgba(83, 0, 130, 1)" offset="100%" />
-            <stop stop-color="rgba(138, 5, 190, 1)" offset="0%" />
+                <stop stop-color="rgba(101, 43, 43,1)" offset="100%" />
+            <stop stop-color="rgba(164, 32, 36,1)" offset="0%" />
             </linearGradient>
         </defs>
         <!-- Aplicando o gradiente e a curva invertida -->

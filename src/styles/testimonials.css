@@ -54,7 +54,7 @@
 }
 
 .feedback-content p span {
-    color: var(--color-primary-6);
+    color: var(--color-primary-7);
 }
 
 @media screen and (max-width: 1024px) {
