@@ -94,6 +94,11 @@
 }
 
 @media screen and (max-width: 450px) {
+    
+    #home .title {
+        font-size: 2.8rem;
+    }
+
     #phone_btn {
         background-color: var(--color-primary-7);
     }
