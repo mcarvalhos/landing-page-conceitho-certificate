@@ -15,13 +15,12 @@ $(document).ready(function () {
 
         if (scrollPosition <= 0) {
             header.css("box-shadow", "none");
-            header.css("background", "#a42024");
 
         } else {
             header.css("box-shadow", "5px 1px 5px rgba(0, 0, 0, 0.1)");
             header.css(" -webkit-backdrop-filter", "blur( 20px )");
             header.css("backdrop-filter", "blur( 20px )");
-            header.css("background", "rgba( 164, 32, 36, 0.9 )");
+            
             header.css("border-radius", "10px;");
         }
 

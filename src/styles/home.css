@@ -14,7 +14,7 @@
 
 #cta .title {
     font-size: 4rem;
-    color: var(--color-neutral-5);
+    /* color: var(--color-neutral-5); */
 }
 
 #cta .title span {
@@ -64,7 +64,7 @@
 }
 
 .shape {
-    background-color: var(--global-color-1);
+    background-color: var(--global-color-2);
     width: 50%;
     height: 100%;
     position: absolute;
