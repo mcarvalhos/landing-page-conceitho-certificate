@@ -13,8 +13,13 @@ footer img {
     align-items: center;
 }
 
+#footer_items p a {
+    text-decoration: none;
+    color: inherit;
+}
+
 #copyright{
-    color: var(--color-primary-7);
+    color: var(--color-neutral-5);
     font-weight: 500;
 }
 

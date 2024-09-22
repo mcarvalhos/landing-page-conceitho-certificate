@@ -65,7 +65,6 @@
 }
 .dish-price a{
     text-decoration: none;
-    color: var(--color-neutral-0);
 }
 
 @media screen and (max-width: 1024px) {
