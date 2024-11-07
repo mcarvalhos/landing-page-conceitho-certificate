@@ -72,10 +72,21 @@
         width: calc(50% - 12px);
     }
 }
+@media screen and (max-width: 1105px) {
+    .dish {
+        width: 35%;
+    }
+    .dish-price button {
+        /* font-size: x-small; */
+    }
+}
 
 @media screen and (max-width: 768px) {
     .dish {
         width: 100%;
+    }
+    .dish-price button {
+        font-size: small;
     }
 
     #certificate .section-subtitle {
