@@ -1,11 +1,14 @@
 #home {
-    display: flex;
+    /* display: flex; */
     min-height: calc(100vh - 91px);
-    position: relative;
+    /* position: relative; */
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-position: center;
 }
 
 #cta {
-    width: 35%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 28px;
@@ -13,16 +16,16 @@
 }
 
 #cta .title {
-    font-size: 4rem;
-    /* color: var(--color-neutral-5); */
+    font-size: 3.5rem;
+    color: var(--color-neutral-0);
 }
 
 #cta .title span {
-    color: var(--color-primary-7);
+    color: var(--color-primary-3);
 }
 
 #cta .description {
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 
 #cta_buttons {
@@ -32,30 +35,6 @@
 
 #cta_buttons a {
     text-decoration: none;
-    color: var(--color-neutral-5);
-}
-
-#phone_btn {
-    display: flex;
-    gap: 8px;
-    align-items: center;
-    background-color: var(--color-neutral-0);
-    padding: 8px 14px;
-    font-weight: 500;
-    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 12px;
-}
-
-#phone_btn button {
-    box-shadow: none;
-}
-
-#banner {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    width: 70%;
-    z-index: 2;
 }
 
 #banner img {
@@ -63,15 +42,10 @@
     width: fit-content;
 }
 
-.shape {
-    background-color: var(--global-color-2);
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    border-radius: 40% 30% 0% 20%;
-    top: 0;
-    right: 0;
-    z-index: 1;
+@media screen and (max-width: 1920px) {
+    #cta {
+        width: 35%;
+    }
 }
 
 @media screen and (max-width: 1170px) {
@@ -93,8 +67,13 @@
     }
 }
 
+@media screen and (max-width: 1366px) {
+    #banner img {
+        height: 85%;
+    }
+}
+
 @media screen and (max-width: 450px) {
-    
     #home .title {
         font-size: 2.8rem;
     }
@@ -107,11 +86,5 @@
     }
     #phone_btn p {
         display: none;
-    }
-}
-
-@media screen and (max-width: 1366px) {
-    #banner img {
-        height: 85%;
     }
 }

@@ -4,6 +4,8 @@ footer {
 
 footer img {
     width: 100%;
+    background-image: url(../images/wave-4.svg);
+    background-size: cover;
 }
 
 #footer_items {
@@ -18,12 +20,12 @@ footer img {
     color: inherit;
 }
 
-#copyright{
+#copyright {
     color: var(--color-neutral-5);
     font-weight: 500;
 }
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px) {
     #footer_items {
         flex-direction: column;
         gap: 20px;

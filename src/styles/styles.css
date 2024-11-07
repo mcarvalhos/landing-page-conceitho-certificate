@@ -1,20 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url(./header.css);
 @import url(./home.css);
-@import url(./services.css);
 @import url(./certificate.css);
-@import url(./testimonials.css);
 @import url(./footer.css);
 
 :root {
-    --color-primary-0: #ba4de3;
-    --color-primary-1: #8a05be;
-    --color-primary-2: #530082;
-    --color-primary-3: #530082;
-    --color-primary-4: #f8d477;
-    --color-primary-5: #ffe100;
-    --color-primary-6: #ffcb45;
-    --color-primary-7: #e9a209;
+    --color-primary-1: #d92a30;
+    --color-primary-2: #cc191f;
+    --color-primary-3: #a42024;
+    --color-primary-4: #652b2b;
+    --color-primary-5: #5b1213;
 
     --color-neutral-0: #ffffff;
     --color-neutral-1: #bfbfbf;
@@ -24,11 +19,6 @@
     --color-neutral-5: #1d1d1d;
     --color-neutral-6: #191919;
     --color-neutral-7: #000000;
-
-    --global-color-1: #cc191f;
-    --global-color-2: #a42024;
-    --global-color-3: #652b2b;
-    --global-color-4: #5b1213;
 }
 * {
     font-family: "Poppins", sans-serif;
@@ -39,15 +29,7 @@
 
 html {
     scroll-behavior: smooth;
-    color: var(--color-neutral-0);
-}
-
-body {
-    background: rgb(25,25,25);
-background: -moz-linear-gradient(0deg, rgba(25,25,25,1) 0%, rgba(64,33,33,1) 50%);
-background: -webkit-linear-gradient(0deg, rgba(25,25,25,1) 0%, rgba(64,33,33,1) 50%);
-background: linear-gradient(0deg, rgba(25,25,25,1) 0%, rgba(64,33,33,1) 50%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191919",endColorstr="#402121",GradientType=1);
+    overflow-x: hidden;
 }
 
 section {
@@ -59,8 +41,13 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--color-primary-7);
-    border-radius: 12px;
+    background: linear-gradient(
+        to bottom,
+        var(--color-primary-1) 0%,
+        var(--color-primary-3) 100%
+    );
+    color: var(--color-neutral-0);
+    border-radius: 10px;
     padding: 10px 14px;
     font-weight: 600;
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
@@ -72,7 +59,26 @@ section {
     color: inherit;
 }
 .btn-default:hover {
-    background-color: var(--color-primary-6);
+    background: linear-gradient(
+        to bottom,
+        var(--color-primary-2) 0%,
+        var(--color-primary-3) 100%
+    );
+}
+
+.btn-secondary {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    border-radius: 12px;
+    border: 1px solid var(--color-primary-3);
+    padding: 10px 14px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .social-media-buttons {
@@ -100,10 +106,16 @@ section {
 }
 
 .section-title {
-    color: var(--color-primary-7);
+    color: var(--color-neutral-5);
     font-size: 1.563rem;
 }
 
 .section-subtitle {
     font-size: 2.1875rem;
+}
+
+@media screen and (min-width: 501px) {
+    .btn-lg {
+        width: 18rem;
+    }
 }
