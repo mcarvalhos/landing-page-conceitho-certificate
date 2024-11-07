@@ -72,9 +72,9 @@
         width: calc(50% - 12px);
     }
 }
-@media screen and (max-width: 1105px) {
+@media screen and (min-width: 1105px) {
     .dish {
-        width: 35%;
+        width: 40%;
     }
     .dish-price button {
         /* font-size: x-small; */
