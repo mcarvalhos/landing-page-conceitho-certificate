@@ -51,46 +51,121 @@
     font-size: x-large;
 }
 
+@media screen and (max-width: 3840px) {
+    #dishes {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .dish {
+        width: calc(20% - 12px);
+    }
+    .dish-price button {
+        font-size: large;
+    }
+}
+
+@media screen and (max-width: 2160px) {
+    #dishes {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .dish {
+        width: calc(20% - 12px);
+    }
+    .dish-price button {
+        font-size: large;
+    }
+}
+
 @media screen and (max-width: 1920px) {
     #dishes {
         flex-wrap: wrap;
         justify-content: center;
     }
-
     .dish {
-        width: calc(25% - 12px);
+        width: calc(20% - 12px);
     }
-}
-
-/* @media screen and (min-width: 1105px) {
-    .dish-price button {
-        font-size: x-large;
-    }
-    body {
-        background-color: blueviolet;
-    }
-} */
-@media screen and (max-width: 1366px) {
-    .dish {
-        width: calc(30% - 12px);
-    }
-
     .dish-price button {
         font-size: large;
     }
 }
+
+@media screen and (max-width: 1875px) {
+    #dishes {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .dish {
+        width: calc(30% - 12px);
+    }
+    .dish-price button {
+        font-size: large;
+    }
+}
+
+@media screen and (max-width: 1755px) {
+    #dishes {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .dish {
+        width: calc(30% - 12px);
+    }
+    .dish-price button {
+        font-size: large;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .dish {
+        width: calc(30% - 12px);
+    }
+    .dish-price button {
+        font-size: large;
+    }
+}
+
+@media screen and (max-width: 1255px) {
+    .dish {
+        width: calc(35% - 12px);
+    }
+    .dish-price button {
+        font-size: large;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .dish {
+        width: calc(40% - 12px);
+    }
+    .dish-price button {
+        font-size: large;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     #dishes {
         flex-wrap: wrap;
         justify-content: center;
     }
-
     .dish {
         width: calc(50% - 12px);
     }
-
     .dish-price button {
-        font-size: x-large;
+        font-size: large;
+    }
+}
+
+@media screen and (max-width: 904px) {
+    #dishes {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .dish {
+        width: calc(50% - 12px);
+    }
+    .dish-price button {
+        font-size: large;
     }
 }
 
@@ -99,9 +174,8 @@
         width: 100%;
     }
     .dish-price button {
-        font-size: small;
+        font-size: large;
     }
-
     #certificate .section-subtitle {
         text-align: center;
     }
